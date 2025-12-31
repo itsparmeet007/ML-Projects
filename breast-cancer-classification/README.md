@@ -51,9 +51,6 @@ Navigate to the project folder:
 
 cd "ML project/Breast Cancer Classification"
 
-
 Open the notebook in Jupyter or Colab and run all cells.
 
 Author - Parmeet Singh
-
-[Your Name]
