@@ -38,7 +38,8 @@ This project demonstrates the full lifecycle of an ML project and is a great exa
 ---
 
 ## Project Structure
-2. Train the Model
+
+## 2. Train the Model
 
 If the model does not exist (model.pkl), running the script will:
 
@@ -54,7 +55,7 @@ Save the trained pipeline
 
 python scripts/housing_pipeline.py
 
-3. Run Inference
+## 3. Run Inference
 
 Once the model is trained:
 
