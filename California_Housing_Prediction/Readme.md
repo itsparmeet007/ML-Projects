@@ -1,4 +1,4 @@
-# Housing Price Prediction Pipeline
+# California Housing Price Prediction Pipeline
 
 ## Project Overview
 This project implements an **end-to-end Machine Learning pipeline** to predict California housing prices using the **Random Forest Regressor**. The pipeline covers all stages of the ML workflow including data preprocessing, model training, evaluation, model persistence, and inference on new data.
