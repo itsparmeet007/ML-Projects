@@ -76,7 +76,8 @@ Lower RMSE indicates better predictive performance.
 
 ## Result
 we can see through the files properly but a short view here also
-
+<img width="712" height="537" alt="Screenshot 2026-01-03 171445" src="https://github.com/user-attachments/assets/feec80ef-24d2-4c30-87d8-74cdab95f823" />
+<img width="833" height="695" alt="Screenshot 2026-01-03 171534" src="https://github.com/user-attachments/assets/1aa1ad76-a472-4244-ab0f-9e00af0b4c36" />
 <img width="405" height="514" alt="Screenshot 2026-01-03 163924" src="https://github.com/user-attachments/assets/1ddaffbe-a60e-4a8e-83c4-8b205e966861" />
 
 ## Key Highlights
