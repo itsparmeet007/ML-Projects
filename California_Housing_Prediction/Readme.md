@@ -71,54 +71,6 @@ Evaluation Metric
 
 Root Mean Squared Error (RMSE) is used as the main metric for performance evaluation:
 
-𝑅
-𝑀
-𝑆
-𝐸
-=
-1
-𝑛
-∑
-𝑖
-=
-1
-𝑛
-(
-𝑦
-𝑖
-−
-𝑦
-^
-𝑖
-)
-2
-RMSE=
-n
-1
-	​
-
-i=1
-∑
-n
-	​
-
-(y
-i
-	​
-
-−
-y
-^
-	​
-
-i
-	​
-
-)
-2
-	​
-
-
 Lower RMSE indicates better predictive performance.
 
 ## Key Highlights
