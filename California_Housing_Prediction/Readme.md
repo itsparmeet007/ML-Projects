@@ -73,6 +73,11 @@ Root Mean Squared Error (RMSE) is used as the main metric for performance evalua
 
 Lower RMSE indicates better predictive performance.
 
+## Result
+we can see through the files properly but a short view here also
+
+<img width="405" height="514" alt="Screenshot 2026-01-03 163924" src="https://github.com/user-attachments/assets/1ddaffbe-a60e-4a8e-83c4-8b205e966861" />
+
 ## Key Highlights
 
 Entire preprocessing + model saved as a single pipeline for production-ready inference
