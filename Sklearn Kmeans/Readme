@@ -1,11 +1,11 @@
-K-Means Clustering – Customer Segmentation
-Overview
+# K-Means Clustering – Customer Segmentation
+# Overview
 
 This project demonstrates the use of the K-Means Clustering algorithm to group customers based on their Age and Income.
 
 Clustering helps in identifying patterns in data without using labeled outputs. In this project, customers are divided into different clusters depending on their similarities.
 
-Dataset
+# Dataset
 
 The dataset contains the following attributes:
 
