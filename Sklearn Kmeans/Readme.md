@@ -80,7 +80,7 @@ Output
 The algorithm groups customers into three clusters based on their income and age.
 Centroids represent the center of each cluster.
 
-Project Structure
+# Project Structure
 KMeans-Clustering/
 │
 ├── dataset.csv
@@ -89,31 +89,27 @@ KMeans-Clustering/
 └── README.md
 Key Concepts Used
 
-Unsupervised Learning
+# Unsupervised Learning
 
-K-Means Clustering
+<img width="792" height="568" alt="image" src="https://github.com/user-attachments/assets/76921ec5-b540-4cb3-b1c6-e9d6c6faacd3" />
 
-Centroids
+# K-Means Clustering
 
-MinMax Scaling
+<img width="731" height="535" alt="image" src="https://github.com/user-attachments/assets/bc8d4f0c-6e49-42b2-8211-0bf830f0f579" />
 
-Elbow Method
+# Centroids
 
-Within Cluster Sum of Squares (Inertia)
+<img width="712" height="550" alt="image" src="https://github.com/user-attachments/assets/c6bc96e7-d491-4448-a227-c234d21d5e03" />
 
-How to Run
+# MinMax Scaling
 
-Clone the repository
+<img width="718" height="531" alt="image" src="https://github.com/user-attachments/assets/7d8809e8-4308-4329-9074-0a898fe75ecc" />
 
-git clone https://github.com/your-username/kmeans-clustering.git
+# Elbow Method
 
-Install dependencies
+<img width="700" height="530" alt="image" src="https://github.com/user-attachments/assets/59567209-61ca-4089-8d08-bbac943e114b" />
 
-pip install pandas matplotlib scikit-learn
-
-Run the notebook or Python script.
-
-Results
+# Results
 
 The clustering model successfully groups customers based on similar income and age patterns, which can help in:
 
