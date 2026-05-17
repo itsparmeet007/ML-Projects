@@ -1,0 +1,11 @@
+numpy 
+pandas 
+seaborn
+matplotlib pyplot 
+scipy stats
+train_test_split
+cross_val_score
+LinearRegression
+r2_score
+PowerTransformer warnings
+warnings
