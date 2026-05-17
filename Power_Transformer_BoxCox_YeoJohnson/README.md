@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Power Transformer (Box-Cox & Yeo-Johnson)
 
 ## Introduction
@@ -62,7 +61,7 @@ Box-Cox only works on:
 
 ```python
 Positive values (> 0)
-=======
+
 # Power Transformer Techniques in Machine Learning
 
 This project demonstrates the implementation of **Power Transformation techniques** used in Machine Learning and Data Preprocessing.
@@ -199,4 +198,4 @@ Parmeet Singh
 
 GitHub:
 https://github.com/itsparmeet007
->>>>>>> 8566fc0 (Added README and requirements)
+
