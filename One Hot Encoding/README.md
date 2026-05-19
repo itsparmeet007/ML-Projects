@@ -9,7 +9,7 @@ The notebook explains how categorical variables are transformed into numerical f
 # Project Overview
 
 Machine Learning algorithms generally work with numerical data.  
-Categorical features such as:
+Categorical features such as:.
 
 - Gender
 - City
