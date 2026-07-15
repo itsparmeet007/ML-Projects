@@ -1,100 +1,81 @@
-# 🎓 Student Performance Prediction using Multiple Linear Regression
+# 📊 Student Performance Prediction using Multiple Linear Regression
 
-## 📌 Project Overview
+## 📌 Overview
 
-This project predicts a student's **Performance Index** using **Multiple Linear Regression** based on various academic and lifestyle factors.
+This project implements **Multiple Linear Regression** to predict students' academic performance based on various study and lifestyle factors.
 
-The notebook demonstrates the complete Machine Learning workflow, including data preprocessing, exploratory data analysis (EDA), model building, evaluation, and implementing Multiple Linear Regression from scratch using the **Normal Equation**.
-
----
-
-## 📂 Dataset
-
-The dataset contains the following features:
-
-| Feature | Description |
-|---------|-------------|
-| Hours Studied | Number of study hours |
-| Previous Scores | Student's previous academic scores |
-| Extracurricular Activities | Participation in extracurricular activities (Yes/No) |
-| Sleep Hours | Average daily sleep hours |
-| Sample Question Papers Practiced | Number of sample papers practiced |
-| Performance Index | Target variable representing student performance |
+The notebook covers the complete machine learning workflow from data preprocessing and exploratory data analysis (EDA) to model evaluation. It also includes a custom implementation of Multiple Linear Regression using the **Normal Equation** without relying on Scikit-Learn's `LinearRegression`.
 
 ---
 
-## 🎯 Problem Statement
+## 📂 Dataset Features
 
-Build a Multiple Linear Regression model capable of predicting the **Performance Index** of students based on their academic and personal habits.
+- Hours Studied
+- Previous Scores
+- Extracurricular Activities
+- Sleep Hours
+- Sample Question Papers Practiced
+
+**Target Variable**
+
+- Performance Index
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## 📊 Exploratory Data Analysis
 
-The following analyses were performed:
+The notebook includes:
 
-- Dataset Overview
+- Data Inspection
 - Missing Value Analysis
 - Descriptive Statistics
-- Distribution of Numerical Features
-- Count Plot for Categorical Feature
-- Boxplots for Outlier Detection
+- Distribution Plots
+- Boxplots
 - Correlation Heatmap
 - Scatter Plots
 - Regression Plots
-- Actual vs Predicted Visualization
-- Residual Analysis
 
 ---
 
 ## ⚙️ Data Preprocessing
 
-The following preprocessing steps were applied:
-
 - Train-Test Split
-- Feature Scaling using **StandardScaler**
-- Categorical Encoding using **OneHotEncoder**
-- Pipeline implementation using **ColumnTransformer**
+- Feature Scaling using StandardScaler
+- Categorical Encoding using OneHotEncoder
+- ColumnTransformer Pipeline
 
 ---
 
-## 🤖 Machine Learning Model
+## 🤖 Models Used
 
-### Scikit-Learn Implementation
+### Scikit-Learn Multiple Linear Regression
 
-- Linear Regression (`sklearn.linear_model.LinearRegression`)
+Built using:
 
-### Custom Implementation
+- `LinearRegression`
 
-Implemented Multiple Linear Regression from scratch using the **Normal Equation**:
+### Multiple Linear Regression from Scratch
 
-\[
-\beta = (X^TX)^{-1}X^Ty
-\]
-
-The custom implementation includes:
+Implemented using the **Normal Equation**
 
 - `fit()`
 - `predict()`
-
-without using Scikit-Learn's Linear Regression.
 
 ---
 
 ## 📈 Model Performance
 
 | Metric | Value |
-|--------|-------|
+|---------|-------|
 | R² Score | **0.9889** |
 | Mean Absolute Error (MAE) | **1.61** |
 
-The custom implementation produced results nearly identical to Scikit-Learn's implementation, validating the correctness of the mathematical implementation.
+The custom implementation produced results nearly identical to Scikit-Learn's implementation.
 
 ---
 
-## 🛠️ Technologies Used
+## 📦 Libraries Used
 
-- Python
 - NumPy
 - Pandas
 - Matplotlib
@@ -106,47 +87,36 @@ The custom implementation produced results nearly identical to Scikit-Learn's im
 ## 📁 Project Structure
 
 ```
-Student-Performance-Multiple-Regression/
+Student_Performance_Multiple_Linear_Regression/
 │
-├── Student_Performance.ipynb
+├── Student_Performance_Multiple_Linear_Regression.ipynb
 ├── README.md
 └── dataset.csv
 ```
 
 ---
 
-## 🚀 Key Learning Outcomes
+## 🎯 Key Learnings
 
-- Understanding Multiple Linear Regression
+- Multiple Linear Regression
+- Data Preprocessing
 - Feature Scaling
 - One-Hot Encoding
-- Building preprocessing pipelines
-- Exploratory Data Analysis (EDA)
+- ColumnTransformer
 - Model Evaluation
 - Residual Analysis
-- Actual vs Predicted Analysis
-- Implementing Multiple Linear Regression using the Normal Equation
-- Comparing custom implementation with Scikit-Learn
+- Multiple Linear Regression from Scratch
+- Normal Equation
 
 ---
 
-## 📷 Results
-
-The model achieved excellent predictive performance with an **R² Score of approximately 98.9%**, indicating that it explains almost all of the variance in the target variable.
-
-The Actual vs Predicted plot demonstrates that the predicted values closely align with the true values, confirming the effectiveness of the model.
-
----
-
-## 🔮 Future Improvements
+## 🚀 Future Improvements
 
 - Ridge Regression
 - Lasso Regression
+- Elastic Net
 - Polynomial Regression
-- Cross Validation
-- Hyperparameter Tuning
-- Feature Selection
-- Model Deployment using Streamlit or Flask
+- Model Deployment
 
 ---
 
@@ -156,10 +126,4 @@ The Actual vs Predicted plot demonstrates that the predicted values closely alig
 
 B.Tech CSE (Honors in Data Science)
 
-GitHub: *Add your GitHub profile link here*
-
-LinkedIn: *Add your LinkedIn profile link here*
-
----
-
-⭐ If you found this project useful, consider giving it a star!
+⭐ If you found this project helpful, feel free to star the repository.
