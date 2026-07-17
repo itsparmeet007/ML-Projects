@@ -359,5 +359,6 @@ Aspiring AI & Machine Learning Engineer passionate about Data Science, Machine L
 
 - 🌐 GitHub: https://github.com/your-github-username
 - 💼 LinkedIn: https://linkedin.com/in/your-linkedin-profile
+- Kaggle : https://www.kaggle.com/itsparmeet007
 
 > ⭐ If you found this repository helpful, consider giving it a star!
