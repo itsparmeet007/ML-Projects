@@ -1,6 +1,6 @@
 # 📉 Gradient Descent for Linear Regression (Optimizing Intercept)
 
-## 📌 Project Overview
+## 📌 Project Overview 
 
 This notebook demonstrates how **Gradient Descent** works by manually optimizing the **intercept (b)** of a simple linear regression model while keeping the slope **(m)** fixed.
 
