@@ -9,7 +9,6 @@ Instead of relying on Scikit-learn's optimization, we calculate gradients oursel
 This project is ideal for beginners who want to understand the mathematics behind Gradient Descent.
 
 ---
-p
 
 ## 🎯 Objectives
 
