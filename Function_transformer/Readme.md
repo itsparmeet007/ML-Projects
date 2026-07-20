@@ -9,7 +9,7 @@ Transformations help in:
 - Reducing skewness
 - Handling outliers
 - Improving normality
-- Improving model performance
+- Improving model performanceo
 
 ---
 
