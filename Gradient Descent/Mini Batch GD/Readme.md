@@ -2,7 +2,7 @@
 
 > Mini Batch Gradient Descent is an optimization algorithm used to train Machine Learning and Deep Learning models. It updates the model parameters using **small batches of training data**, combining the speed of Stochastic Gradient Descent (SGD) with the stability of Batch Gradient Descent.
 
----l
+---
 
 # 📑 Table of Contents
 
